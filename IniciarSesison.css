@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+#IniciarSesion{
+    padding: 50px;
+    h1{ /*H1 esta alineado en el centro*/ 
+        text-align: center;
+    }
+    #Correo{  /*El campo de email es de tipo flex, su direccion es en columna*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{ /*El label tiene un margin para que empiece en el comienzo del input*/
+            margin-right:130px;
+        }
+    }
+    #Contraseña_Usuario{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:77px;
+        }
+    }
+    .enviar{ /*El boton de iniciar sesion contiene un padding incial para que se expanda y asi el background definido ocupe más espacio*/
+        padding: 10px;
+        background-color: black;
+        color: white;
+        padding-left: 30px; /*El padding left y rigtt se encarga de que este alineado con los otros campos*/
+        padding-right: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+#PiePagina{
+    padding-bottom: 20px; padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #494949;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+#Crear_Cuenta{
+
+    padding: 50px;
+    h1{
+        text-align: center;
+    }
+
+    #Nombre{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:113px;
+        }
+
+    }
+
+    #Apellidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:95px;
+        }
+    }
+
+    #Edad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:27px;
+        }
+    }
+    #Nombre_Usuario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:49px;
+        }
+    }
+
+    #Correo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:130px;
+        }
+    }
+    #Contraseña_Usuario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            margin-right:77px;
+        }
+    }
+    .enviar{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+}
+
+#PiePagina{
+    padding-bottom: 20px; padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #494949;
+    }
+}

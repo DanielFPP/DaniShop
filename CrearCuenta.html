@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="IniciarSesison.css">
+</head>
+<body>
+
+    <section id="Buscador"> 
+        <div id="Logo"> <!-- Logo con un enlace que te lleva a al centro de la pagina -->
+            <a href="DaniShop.html"><img src="DaniShop.png" alt="DaniShop" width="200"></a> 
+        </div>
+    </section>
+    <hr>
+
+    <div id="Crear_Cuenta"> <!-- Div referente a los diferentes campos para crear una cuenta -->
+        <h1>CREAR CUENTA</h1>
+        
+        <div id="Nombre">
+            <label for="Nombre">NOMBRE</label>
+            <input type="text" name="Nombre" required > <br>
+        </div>
+
+        <div id="Apellidos">
+            <label for="Apellidos">APELLIDOS</label>
+            <input type="text" name="Apellidos" required > <br>
+        </div>
+
+        <div id="Edad">
+            <label for="Edad">EDAD</label>
+            <input type="number" name="Edad" required min="18" max="99"> <br>
+        </div>
+
+        <div id="Nombre_Usuario">
+            <label for="Nombre_User">NOMBRE USUARIO </label>
+            <input type="text" name="Nombre_User" required > <br>
+        </div>
+
+        <div id="Correo">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" required > <br>
+        </div>
+
+        <div id="Contraseña_Usuario">
+            <label for="contraseña">CONTRASEÑA</label>
+            <input type="password" name="contraseña" required > <br>
+            <input type="submit" value="CREAR CUENTA" class="enviar"> <BR></BR>
+            <a href="IniciarSesion.html">INICIAR SESION</a>
+        </div>
+    </div>
+
+    <hr>
+    
+    <footer id="PiePagina"> <!-- Footer con enlaces de ayuda -->
+        <ul id="Ayuda">
+            <b>AYUDA</b>
+            <li><a href="Ayuda.html">Centro de Ayuda</a></li>
+            <li><a href="Devoluciones.html">Tramintar devoluciones</a></li>
+        </ul>
+    
+        <ul id="Informacion">
+            <b>EMPRESA</b>
+            <li><a href="AvisoLegal.html">Aviso Legal</a></li>
+            <li><a href="https://drive.google.com/file/d/1lLDPGqLtrtjXmBLDoZSWvCAKUQskQZYm/view?usp=sharing" target="_blank">Politica de Privacidad</a></li>
+            <li><a href="https://drive.google.com/file/d/1xQS-yP911_9fpsIQJEyZwXyK7J7Vd2cp/view?usp=sharing" target="_blank">Politica de Cookies</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>

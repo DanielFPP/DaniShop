@@ -1,0 +1,64 @@
+body{ /* La sección body se encarga de definir el tamaño del texto, su fuente y el color que tiene el fondo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+#Buscador{
+    nav{ /* Los elementos nav estan alineados en el centro mediante la propiedad display flex, por otra parte el justify content define que los elementos sean distribuidos mediante un espacio entre ellos */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right:33px;
+    }
+    ul{ /* Se define que las listas ul no tengan estilo (Puntos a los lados) que cotengasn la propiedad flex y que tengan un espaciado de 25px*/
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    #PalabrasClave{ /* Define su posicion en la izquierda*/
+        justify-content: flex-start;
+    }
+    #PalabrasClaveExtras{ /* Define su posicion en la derecha*/
+        justify-content: flex-end;
+    }
+    #Logo{ /* Define su posicion en el centro mediante un display flex, el padding sirve para que este más centrado*/
+        display: flex;
+        justify-content: center;
+        padding-left: 180px;
+    }
+    a{ /* Los enlaces en su instacia inicial no cuentan con subrayar y tienen color negro*/
+       text-decoration: none;
+       color: black;
+    }
+    .tit:hover{ /* Cuando el mouse pasa por un enlace este es subrayado*/
+        text-decoration: underline;
+    }
+}
+
+#Inicio{ /*Las imagenes del inicio estan en la misma fila por el flex-wrap y el display flex*/
+    display: flex;
+    flex-wrap: nowrap;
+    img{ /*Las imagenes del incio mantienen su resolucion y tienen una saturacion baja para crear un efecto visual posteriormente*/
+        width: 100%;
+        height: 100%;
+        filter:saturate(30%)
+    }
+    a:hover img{ /*Al pasar el mouse pasan a tener la saturacion que tienen originalmente*/
+        filter:saturate(100%)
+    }
+}
+#PiePagina{ /*El pie de la pagina tiene un relleno de 20 para que no quede muy pegado a la linea que lo separa del contenido principal*/
+    padding-bottom: 20px; padding-top: 20px;
+    display: flex; /* Es te tipo flex para que cada lista ul tenga su espacio*/
+    justify-content: start; /*Esta posicionado de izquierda a derecha */
+    a{ /*Se define el estilo que tiene los vinculos del footer*/
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #494949;
+    }
+    a:hover{ /*Al pasar el mouse por encima se subraya*/
+        text-decoration: underline;
+    }
+
+}

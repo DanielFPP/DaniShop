@@ -1,0 +1,19 @@
+#Prendas{
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        font-size: 13px;
+    }
+    #Polos{
+        display: flex;
+    }
+    #Chaquetas{
+        display: flex;
+    }
+    #Camisa{
+        display: flex;
+    }
+    #Pantalones{
+        display: flex;
+    }
+}
